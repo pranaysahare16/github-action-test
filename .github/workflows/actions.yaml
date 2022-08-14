@@ -14,11 +14,11 @@ jobs:
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
           echo "${{ github.token }}"
-          git clone git@github:$GITHUB_REPOSITORY
-          git checkout $GITHUB_SHA
+          # git clone git@github:$GITHUB_REPOSITORY
+          # git checkout $GITHUB_SHA
       - name: chckout
         uses: actions/checkout@v2
-      - name: List file after ceckout
+      - name: List file after checkout 
         run: |
           pwd
           ls -a
