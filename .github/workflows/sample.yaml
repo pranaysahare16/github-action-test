@@ -1,7 +1,7 @@
 name: shell command
 
 on: 
-  - push 
+  workflow_dispatch:
 
 jobs: 
   run-shell-command: 
