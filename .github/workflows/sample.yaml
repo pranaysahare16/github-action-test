@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: echo a string
         run: echo "hellow world"
-      - name: multiline script
+      - name: multi_line script
         run: |
           node -v
           npm -v
